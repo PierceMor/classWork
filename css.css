@@ -1,0 +1,13 @@
+.jumbotron {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.col-12 {
+    border-style: solid;
+    padding: 0px;
+}
+p {
+    background-color: blue;
+}
