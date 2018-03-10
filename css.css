@@ -10,4 +10,13 @@
 }
 p {
     background-color: blue;
+    color: white;
+}
+
+form {
+    margin: 40px;
+}
+
+table {
+    margin: 40px;
 }

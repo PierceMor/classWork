@@ -1,3 +1,16 @@
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB167e8oxQ0qdHXdnp67Vbl2uw_yNL9PIg",
+    authDomain: "saturday3-10.firebaseapp.com",
+    databaseURL: "https://saturday3-10.firebaseio.com",
+    projectId: "saturday3-10",
+    storageBucket: "",
+    messagingSenderId: "273017951553"
+  };
+  firebase.initializeApp(config);
+
+
 var database = firebase.database();
 
 //Initial values
@@ -19,8 +32,8 @@ $("button").on("click", function(event){
    database.ref().push({
       name: name,
       role: role,
-      startDate = startDate,
-      monthlyRate = monthlyRate,
+      startDate: startDate,
+      monthlyRate: monthlyRate,
        dateAdded: firebase.database.ServerValue.TIMESTAMP
    });
 
