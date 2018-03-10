@@ -16,17 +16,52 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
         <h1 class="display-4">Employee Data Management</h1>
-        <p class="lead">A comprehensive directory of Employee billable hours.</p>
+        <h3 class="lead">A comprehensive directory of Employee billable hours.</h3>
         </div>
     </div>
     <div class="row">
-        <!-- holdder for info -->
+        <!-- holder for info -->
         <div class="col-12">
 
+            <p>Current Employee</p>
+            <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" id="name-display">Name</th>
+                        <th scope="col" id="role-display" >role</th>
+                        <th scope="col" id="startDate-display" >Start Date</th>
+                        <th scope="col" id="monthlyRate-display" >Monthly Rate </th>
+                        <th scope="col" id="monthWork-display" >Months Worked</th>
+                        <th scope="col" id="totalBilled-display" >total billed</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
+            <p>Input Form</p>
             <form>
                 <div class="form-group">
                     <label for="inputAddress">Employee Name</label>
@@ -52,10 +87,9 @@
 
 <!-- Jquery --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="app.js"></script>
 
 <!--firebase-->
-
 <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 <script>
   // Initialize Firebase
